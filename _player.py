@@ -25,11 +25,20 @@ class Player:
     def avgDrive(self):
         self.avg_drive = self.drive_total / self.number_of_drives
         print('{} average drive this year is {}'.format(self.name, self.avg_drive))
+        
+    def plotPlayerRanking(self):
+        x = self.owgr
+        y = self.years_pro
+        fig, ax = plt.subplots()
+        ax.plot(x, y)
+        ax.set_title('Ranking vs Years Pro')
+    
 
 
 player = Player('Rickie Fowler', 29, 8, 15, 9)
 player.playerNameAndRank()
 player.ageTurnedPro()
+player.plotPlayerRanking()
         
 
         
