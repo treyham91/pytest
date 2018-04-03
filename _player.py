@@ -32,13 +32,17 @@ class Player:
         fig, ax = plt.subplots()
         ax.plot(x, y)
         ax.set_title('Ranking vs Years Pro')
+
+def main():
     
+    player = Player('Rickie Fowler', 29, 8, 15, 9)
+    player.playerNameAndRank()
+    player.ageTurnedPro()
+    player.plotPlayerRanking()
+    
+if __name__ == "__main__":
+    main()
 
-
-player = Player('Rickie Fowler', 29, 8, 15, 9)
-player.playerNameAndRank()
-player.ageTurnedPro()
-player.plotPlayerRanking()
         
 
         
