@@ -4,6 +4,8 @@ Created on Sun Mar 25 23:40:49 2018
 
 @author: treyh
 """
+# A sample script creating manufacturing equipment objects
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
