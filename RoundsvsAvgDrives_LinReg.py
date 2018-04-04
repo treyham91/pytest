@@ -4,6 +4,7 @@ Created on Tue Apr  3 23:09:23 2018
 
 @author: treyh
 """
+# This plot uses the AvgDrives.csv file located in this repo
 
 import numpy as np
 import pandas as pd
