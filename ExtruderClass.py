@@ -119,6 +119,7 @@ def main():
     mix.running(status=1)
     mix.openLogFile("{}_log.txt".format(machines['Mixer'][0]))
     
-    
+if __name__ == "__main__":
+    main()    
         
         
