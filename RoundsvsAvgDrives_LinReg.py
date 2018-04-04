@@ -9,7 +9,6 @@ Created on Tue Apr  3 23:09:23 2018
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import sqlite3 as sql
 
 drives_data = pd.read_csv('AvgDrives.csv', header=None)
 X = drives_data.iloc[:, 3].values
