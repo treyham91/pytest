@@ -1,2 +1,2 @@
 # pytest
-Just some sample scripts I've written in my free time
+A random assembly of python code I've written
