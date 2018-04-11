@@ -1,12 +1,12 @@
 # pytest
-A random assembly of python code I've written
+A random assembly of python code I've written<br \>
 
-Data Sources:
+<p>Data Sources:<br \>
 
-AvgDrives.csv
--Data is from pga.com
--csv comma delimited
+ AvgDrives.csv<br \>
+-Data is from pga.com<br \>
+-csv comma delimited<br \></p>
 
-GreensInRegulation.csv
--Data is from pga.com
--csv comma delimited
+<p>GreensInRegulation.csv<br \>
+-Data is from pga.com<br \>
+-csv comma delimited<br \></p>
