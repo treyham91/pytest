@@ -11,7 +11,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 drives_data = pd.read_csv('AvgDrives.csv', header=None)
-X = drives_data.iloc[:, 3].values
+X = drives_data.iloc[:, 2:3].values
 y = drives_data.iloc[:, 4].values
 
 from sklearn.model_selection import train_test_split
