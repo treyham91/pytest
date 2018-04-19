@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Mar 25 23:40:49 2018
-
-@author: treyh
-"""
 # A sample script creating manufacturing equipment objects
 
 import numpy as np
@@ -21,7 +15,7 @@ machines = {'Ext': ['EXT001','EXT002','EXT003','EXT004','EXT005',
 locations = {'Bay': ['BAY01','BAY02','BAY03','BAY04','BAY05'],
              'Lane': ['LN001','LN002','LN003','LN004','LN005',
                       'LN006','LN007','LN008','LN009','LN010'],
-             'Org': ['Apple Valley','Annex','Lakeville','Hutchinson']}
+             'Org': ['Org1','Org2','Org3','Org4']}
 
 class Extruder:
     
