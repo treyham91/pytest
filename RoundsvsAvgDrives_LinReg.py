@@ -86,17 +86,21 @@ class LinRegression:
 
     def plot_results(self, title, xlabel, ylabel):
         # Plotting the Training set results
-        plt.scatter(self.X_train, self.y_train, color='red')
-        plt.plot(self.X_train, self.regressor.predict(self.X_train), color='blue')
-        plt.title(title)
-        plt.xlabel(xlabel)
-        plt.ylabel(ylabel)
-        plt.show()
+        fig, axes = plt.subplots()
+        axes1 = fig.add_axes([0.1, 0.1, 0.8, 0.8])
+        axes2 = fig.add_axes([0.2, 0.5, 0.4, 0.3])
+
+        axes1.scatter(self.X_train, self.y_train, color='red')
+        axes1.plot(self.X_train, self.regressor.predict(self.X_train), color='blue')
+        axes1.title(title)
+        axes1.xlabel(xlabel)
+        axes1.ylabel(ylabel)
+        axes1.show()
 
         # Plotting the Test set results
-        plt.scatter(self.X_test, self.y_test, color='red')
-        plt.plot(self.X_train, self.regressor.predict(self.X_train), color='blue')
-        plt.title(title)
-        plt.xlabel(xlabel)
-        plt.ylabel(ylabel)
-        plt.show()
+        axes2.scatter(self.X_test, self.y_test, color='red')
+        axes2.plot(self.X_train, self.regressor.predict(self.X_train), color='blue')
+        axes2.title(title)
+        axes2.xlabel(xlabel)
+        axes2.ylabel(ylabel)
+        axes2.show()
