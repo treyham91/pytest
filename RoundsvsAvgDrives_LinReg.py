@@ -29,10 +29,10 @@ class LinRegression:
         Parameters
         ----------
         :param X_cols1: data.iloc[:, X_cols1:X_cols2].values. The
-        column to be excluded from the set
+        column to be included from the set
 
         :param X_cols2: data.iloc[:, X_cols1:X_cols2].values. The
-        column to be included from the set.
+        column to be excluded from the set.
 
         :param y_cols: data.iloc[:, y_cols].values
 
