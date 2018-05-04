@@ -27,7 +27,7 @@ class Player:
 
 def main():
 
-    regression = lin_reg.LinRegression('C:/Users/treyh/PycharmProjects/pytest/Data Sources/AvgDrives.csv')
+    regression = lin_reg.LinRegression('AvgDrives.csv')
     regression.import_and_split_data(4, 5, 3)
     regression.find_set_shape()
     regression.fit_test_and_predict_results()
